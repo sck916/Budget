@@ -25,6 +25,7 @@ function saveRecord(record) {
   // add record to your store with add method.
   store.add(record);
 }
+
 function checkDatabase() {
   // open a transaction on the budget db
   const transaction = db.transaction(["pending"], "readwrite");
